@@ -1670,13 +1670,27 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   text-align: center;
 }
 
+.facts-area{
+  background-color: #818285;
+}
+
+.ts-facts-img{
+  width: 90px;
+  margin: 0 auto;
+}
+
+.ts-facts-img img{
+  height: 90px;
+  width: 100%;
+}
+
 .facts-wrapper .ts-facts {
   color: #fff;
 }
 
 .ts-facts .ts-facts-icon i {
   font-size: 42px;
-  color: #ffb600;
+  color: #000;
 }
 
 .ts-facts .ts-facts-content .ts-facts-num {
@@ -1687,7 +1701,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .ts-facts .ts-facts-content .ts-facts-title {
   font-size: 16px;
-  color: #ffb600;
+  color: #000;
   margin: 0;
 }
 
@@ -2194,20 +2208,20 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .clients-logo {
   margin: 0 0 30px;
   border: 1px solid #dadada;
-  min-height: 105px;
+  min-height: 100px;
   padding: 0 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+  background-color: gray;
 }
 
 .clients-logo img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-filter: gray;
-          filter: gray;
+  width: 100%;
+  height: 130px;
+  background-color: gray;
 }
 
 /* Testimonial
