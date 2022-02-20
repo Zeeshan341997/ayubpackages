@@ -746,7 +746,7 @@ ul.navbar-nav > li > a {
 
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
-  color: #0d3e51 !important;
+  color: #fff !important;
 }
 
 /*-- Logo --*/
@@ -1954,7 +1954,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .shuffle-btn-group label.active {
-  color: #212121;
+  color: white;
   background: #0d3e51;
 }
 
@@ -2047,7 +2047,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .shuffle-item .project-img-container .project-item-info-content .project-item-title a:hover {
-  color: #0d3e51;
+  color: #fff;
 }
 
 .shuffle-item .project-img-container .project-item-info-content .project-cat {
@@ -2055,7 +2055,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   display: inline-block;
   padding: 2px 8px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   font-size: 10px;
   text-transform: uppercase;
 }
@@ -2496,6 +2496,10 @@ img.testimonial-thumb {
 
 .footer-main {
   padding: 80px 0 60px;
+}
+
+.footer-about p{
+  text-align: justify;
 }
 
 .footer .widget-title {
