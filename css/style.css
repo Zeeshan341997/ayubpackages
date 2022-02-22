@@ -1708,11 +1708,19 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 /* Services
 ================================================== */
 /* Service box */
-.ts-service-box .ts-service-icon i {
-  font-size: 36px;
-  float: left;
-  color: #0d3e51;
+.ts-service-box-img img{
+  width: 60px;
 }
+
+.ts-service-box-img{
+  width: 50px;
+}
+
+#cboxClose,
+#cboxCurrent{
+  display: none !important;
+}
+
 
 .ts-service-box .ts-service-box-content {
   margin-left: 62px;
